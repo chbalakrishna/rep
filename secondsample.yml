@@ -4,5 +4,5 @@
   tasks:
    - name: i want to install python
      apt: 
-      name: Python 3.7.14
+      name: Python 
       state: present 
