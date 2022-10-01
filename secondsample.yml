@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+   - name: i want to install python
+     apt: 
+      name: https://www.python.org/downloads/release/python-3714/
+      state: present 
